@@ -8,7 +8,7 @@ class ImageViewer extends Component{
 			imageCollection:[],
 			count:1,
 		}
-		this.handlePrevious = this.handleNext.bind(this)
+		this.handlePrevious = this.handlePrevious.bind(this)
 		this.handleNext = this.handleNext.bind(this)
 	}
 	componentDidMount(){
@@ -24,7 +24,8 @@ class ImageViewer extends Component{
 		if(this.state.count > 1){
 			this.setState(prevState=>{
 				return{ 
-					count : prevState.count - 1}
+					count : prevState.count - 1
+				}
 			})
 		}
 	}
