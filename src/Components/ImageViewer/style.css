@@ -1,0 +1,51 @@
+.container{
+	height:500px;
+	background-color: red;
+	vertical-align: center;
+}
+
+.container > h1 {
+	text-align: center;
+	font-size: 50px;
+	color: blue;
+}
+.image{
+	height: 600px;
+	width:1000px;
+	text-align: center;
+}
+.imageHolder{
+	height: 300px;
+	width:300px;
+	text-align:center;
+	padding-left: 150px;
+}
+.previousButton{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 30px;
+	  margin: 4px 2px;
+	  cursor: pointer;
+	  width:300px;
+	  margin-left: 20px;
+}
+.nextButton{
+
+	  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  margin-left: 600px;
+  cursor: pointer;
+  width: 300px;
+}

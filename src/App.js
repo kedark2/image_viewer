@@ -1,25 +1,18 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
+import apple from './apple.jpeg';
+import football from './ftball.png'
 import './App.css';
+import ImageViewer from "./Components/ImageViewer/ImageViewer.js";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div >
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <img src={football} className="App-logo" alt="logo" />
         </header>
+        <ImageViewer/>
       </div>
     );
   }
