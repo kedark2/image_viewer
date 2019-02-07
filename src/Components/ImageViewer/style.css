@@ -1,6 +1,6 @@
 .container{
 	height:500px;
-	background-color: red;
+	background-color: #9BD9D7;
 	vertical-align: center;
 }
 
@@ -36,7 +36,7 @@
 }
 .nextButton{
 
-	  background-color: #4CAF50;
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 32px;

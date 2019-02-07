@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import apple from './apple.jpeg';
 import football from './ftball.png'
 import './App.css';
 import ImageViewer from "./Components/ImageViewer/ImageViewer.js";
